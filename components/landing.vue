@@ -27,7 +27,10 @@
               <span class="pl-2"> Explore</span>
             </button>
           </nuxt-link>
-          <button class="btn bg-secbg">
+          <a
+            class="btn bg-secbg"
+            href="https://github.com/yashraut362/CryptoNation"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="md:h-8 md:w-8 h-4 w-4"
@@ -43,7 +46,7 @@
               />
             </svg>
             <span class="pl-2"> Code</span>
-          </button>
+          </a>
         </div>
       </div>
       <div class="w-2/5">
