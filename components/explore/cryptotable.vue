@@ -4,11 +4,11 @@
       <table class="w-full">
         <thead>
           <tr
-            class="text-md font-semibold tracking-wide text-left text-gray-900 bg-gray-100 uppercase border-b border-gray-600"
+            class="text-md font-semibold tracking-wide text-left text-gray-900 bg-primarybg uppercase border-b border-gray-600"
           >
             <th class="px-4 py-3">Name</th>
             <th class="px-4 py-3">Current Price</th>
-            <th class="px-4 py-3">Market Cap</th>
+            <th class="px-4 py-3 hidden md:flex">Market Cap</th>
             <th class="px-4 py-3">Last 24 hours</th>
           </tr>
         </thead>
@@ -37,7 +37,7 @@
             <td class="px-4 py-3 text-ms font-semibold border">
              ₹ {{ coin.current_price }}
             </td>
-            <td class="px-4 py-3 text-xs border">
+            <td class="px-4 py-3 text-xs border hidden md:flex">
               <span class="px-2 py-1 font-semibold leading-tight rounded-sm">
                $ {{coin.market_cap.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}}
               </span>

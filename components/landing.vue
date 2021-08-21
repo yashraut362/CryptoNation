@@ -50,7 +50,7 @@
         </div>
       </div>
       <div class="w-2/5">
-        <img class="w-15 h-15" src="../assets/images/1.png" alt="landing" />
+        <img class="w-15 h-15" src="../assets/images/1.webp" alt="landing" />
       </div>
     </div>
   </div>
