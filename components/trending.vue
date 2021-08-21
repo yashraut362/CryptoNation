@@ -11,7 +11,6 @@
             <div class="block">
               <div class="flex justify-evenly">
                 <h1 class="name">{{ coin.item.name }}</h1>
-                <h1 class="value">3.06%</h1>
               </div>
               <h1 class="price">Rank : {{ coin.item.market_cap_rank }}</h1>
             </div>
